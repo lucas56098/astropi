@@ -1,1 +1,1 @@
-# astropi
+# Milliways regulars
