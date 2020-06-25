@@ -1,4 +1,4 @@
-# Milliways regulars - Astro Pi MissionSpaceLab 19/20
+# Milliways regulars - Astro Pi Mission Space Lab 19/20
 Welcome at the Milliways regulars repository. Have fun looking through our Project and have a Pan Galactic Gargle Blaster!
 
                                                           /\  /\
