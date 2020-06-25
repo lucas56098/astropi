@@ -1,5 +1,5 @@
 # Milliways regulars - Astro Pi MissionSpaceLab 19/20
-Welcome at the Milliyways regulars repository. Have fun looking through our Project and have a Pan Galactic Gargle Blaster!
+Welcome at the Milliways regulars repository. Have fun looking through our Project and have a Pan Galactic Gargle Blaster!
 
                                                           /\  /\
                                                           ||__||
@@ -22,4 +22,3 @@ Welcome at the Milliyways regulars repository. Have fun looking through our Proj
      |||                                                       |||
      |||                                                       |||
      |||                                                       |||
-     
