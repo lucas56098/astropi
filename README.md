@@ -12,11 +12,11 @@ During flight the program we developed recorded the unixtime, the raw magnet dat
 Figure 1: yellowstone nationalpark (taken during mission)
 
 ### 3. Results
-<div style="float: right; margin: 10px;">
-  <img src="./project reports/figures/Figure_1.png" width="300" />
-  <figcaption><br /> Figure 2: measurement intervals</figcaption>
-</div>
-During flight 461 rows of data were recorded. No exception was raised, the fit worked and the day night transitions were correct. The results were saved in the result-file. As seen in Figure 2 the measurement intervals were quite inconsistent and long, considering that we programmed an Intervall of 10s. The average of 22,8s affected the precision of our calculations. The ISS travels about 200km during that time. We also analyzed if the fit-Method worked well. Figure 3 illustrates the connection between magnet-z (blue) and the inclination (green). One can also see that the cosine (orange) was fitted quite well, even though there where some irregularities in the magnetic field in the southern hemisphere. The calculated inclination was 52,26° and the orbital period was 94,1min which corresponds to an orbit height of 475,7km. 
+![Image](./project%20reports/figures/Figure_1.png) <br /> 
+Figure 2: measurement intervals
+<br /> 
+
+During flight 461 rows of data were recorded. No exception was raised, the fit worked and the day night transitions were correct. The results were saved in the result-file. As seen in Figure 2 the measurement intervals were quite inconsistent and long, considering that we programmed an Intervall of 10s. The average of 22,8s affected the precision of our calculations. The ISS travels about 200km during that time. We also analyzed if the fit-Method worked well. Figure 3 illustrates the connection between magnet-z (blue) and the inclination (green). One can also see that the cosine (orange) was fitted quite well, even though there where some irregularities in the magnetic field in the southern hemisphere. The calculated inclination was 52,26° and the orbital period was 94,1min which corresponds to an orbit height of 475,7km. <br /> 
 
 ![Image](./project%20reports/figures/Figure_2.png)
 Figure 3: magnet-z and fit-method
@@ -63,7 +63,8 @@ Our program was executed flawlessly over the 180 minutes. The data were saved in
     </tr>
   </table>
 </div>
-
+<br /> 
+Figure 6: result table
 
 <br /> 
 <br /> 
@@ -71,7 +72,7 @@ Our program was executed flawlessly over the 180 minutes. The data were saved in
 
 
 <p align="center">
-  <img src="./project reports/figures/raspberrypi.png" height="100" />
-  <img src="./project reports/figures/astropi.png" height="100" /> 
+  <img src="./project reports/figures/raspberrypi.png" height="100" style="margin-right: 40px;" />
+  <img src="./project reports/figures/astropi.png" height="100" style="margin-right: 40px;" /> 
   <img src="./project reports/figures/esa_logo.png" height="100" />
 </p>
