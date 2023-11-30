@@ -2,16 +2,16 @@
 ### This high school project was part of the Astro Pi Mission Space Lab 19/20
 Welcome at the Milliways regulars repository. Have fun looking through our Project and have a Pan Galactic Gargle Blaster!
 
-### 1. Introduction
+## 1. Introduction
 We aimed to investigate the possibility of calculating the orbit and position of the ISS with a Raspberry Pi. This is interesting, because in space it is very important to know the orbit. Without that no one would be able to interact with the space station let alone docking resupply missions. The hardware required for orbit and position determination is cheap and lightweight, and therefore might be useful for CubeSats. We expected to be able to determine the orbit partially during flight, as well as learning about orbit calculation and ways to improve them afterwards.
 
-### 2. Method
+## 2. Method
 During flight the program we developed recorded the unixtime, the raw magnet data, the brightness of the IR-Camera and for reference the latitude and longitude. This data was stored in a csv-file. Aditionally 17 Images were saved to see if the brightness method works. Because the ISS spins once during every rotation we expected the magnet-z data to form a cosine wave with maxima, minima and turning points representing the corresponding orbit positions. The program executed a Fast Fourier Transform and a Scipy method to fit the cosine over the data. Thanks to the north at the maximum and minimum, the program was able to calibrate the data and then calculate the inclination using the turning points and the arctangent. Finally, the program used the time, the day-night transitions and the normalized cross product to determine the longitude of the minimum and the position at sunrise. The results were saved in another file. On earth we only illustrated our results.
 
 ![Image](./project%20reports/figures/example_image.jpg) <br /> 
 Figure 1: yellowstone nationalpark (taken during mission)
 
-### 3. Results
+## 3. Results
 ![Image](./project%20reports/figures/Figure_1.png) <br /> 
 Figure 2: measurement intervals
 <br /> 
@@ -31,7 +31,7 @@ In Figure 5 we illustrated the calculated orbit (red) on a equirectangular proje
 ![Image](./project%20reports/figures/fit.png) <br /> 
 Figure 5: calculated orbit versus real orbit
 
-### Conclusion
+## Conclusion
 Our program was executed flawlessly over the 180 minutes. The data were saved in the csv-file, evaluated during the flight and the orbit parameters were stored in the result-file. The fit-Method worked well, and so the orbital period and the height were determined approximately. Furthermore, the assumptions could be confirmed that the inclination is related to magnet-z and that day and night could be easily determined with the camera. The earth's rotation was responsible for the biggest inaccuracy, which should be taken into account in the future. In addition, an improvement would certainly be possible if the magnetic field was not assumed to be a bar magnet, considering the anomaly in the southern hemisphere. To conclude, one can state that the Astro Pi can determine the orbit of the ISS surprisingly well. However, due to the high speed in space, the smallest inaccuracy in space already leads to significant position deviations, which is why the accuracy of the program is not precise enough to use it for rendezvous or other interactions.
 
 <div style="float: right; margin: 10px;">
@@ -63,7 +63,6 @@ Our program was executed flawlessly over the 180 minutes. The data were saved in
     </tr>
   </table>
 </div>
-<br /> 
 Figure 6: result table
 
 <br /> 
